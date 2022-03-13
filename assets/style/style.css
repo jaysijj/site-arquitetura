@@ -91,6 +91,7 @@ header img {
   }
 }
 .dynamic-txts li span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
 }
 .dynamic-txts li span::after {
