@@ -1,0 +1,81 @@
+.content0 {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding-top: 70px;
+}
+.slides input {
+  display: none;
+}
+.slides {
+  display: flex;
+  width: 400%;
+}
+.slide {
+  width: 25%;
+  transition: 1s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+/* Navegação Manual */
+.navigation {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 25px;
+}
+.bar {
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 6px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover {
+  background: lightpink;
+}
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+#slide2:checked ~ .s1 {
+  margin-left: -25%;
+}
+#slide3:checked ~ .s1 {
+  margin-left: -50%;
+}
+#slide4:checked ~ .s1 {
+  margin-left: -75%;
+}
+/* Navegação Automática */
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%);
+}
+.navigation-auto div {
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 6px;
+  transition: 0.4s;
+  margin-right: 20px;
+}
+
+#slide1:checked ~ .navigation-auto .auto-btn1 {
+  background: lightpink;
+}
+#slide2:checked ~ .navigation-auto .auto-btn2 {
+  background: lightpink;
+}
+#slide3:checked ~ .navigation-auto .auto-btn3 {
+  background: lightpink;
+}
+#slide4:checked ~ .navigation-auto .auto-btn4 {
+  background: lightpink;
+}

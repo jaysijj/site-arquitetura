@@ -1,0 +1,17 @@
+section{
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+}
+section img{
+    display: block;
+    margin: auto;
+}
+.manutencao{
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.construcao{
+    padding-bottom: 40px;
+}

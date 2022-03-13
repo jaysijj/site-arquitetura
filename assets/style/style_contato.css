@@ -1,0 +1,123 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+.cont-int p{
+    padding: 10px 0;
+}
+#contato{
+    padding-top: 70px;
+    /*display: flex;
+    margin: auto;
+    justify-content: center;*/
+    text-align: center;   
+}
+
+#contato .cont-int{
+    padding: 40px 0;
+    padding-left: 20px;
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+}
+
+form{
+    padding: 20px 0;
+}
+
+.formulario{
+    display: block;
+}
+
+#contato label input{
+    box-sizing: border-box;
+}
+
+.cont{
+    padding: 10px 0;
+}
+
+.type-box{
+    display: inline-block;
+    width: 210px;
+}
+
+.control{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.control input, select, textarea{
+    width: 230px;
+    height: 28px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.control textarea{
+    height: 173px;
+}
+
+.cont-submit{
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+#dados{
+    padding: 45px 0;
+    padding-left: 20px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+
+#mapas{
+    text-align: center;
+    padding: 30px 0;
+}
+
+#mapas .mapa-um {
+    display: inline-block;
+    margin: 0 20px;
+}
+#mapas .mapa-dois {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 517px) {
+    #mapa{
+        padding: 0;
+    }
+    #mapas iframe{
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .type-box{
+        display: block;
+    }
+    .control input, select, textarea{
+        display: block;
+    }
+    #contato .cont-int{
+        width: 90%;
+    }
+    #dados{
+        width: 90%;
+     }
+}
+
+@media screen and (max-width: 400px) {
+
+
+  }
